@@ -2,3 +2,4 @@
 
 - [Module 2](html-css-javascript-for-web-developers/module-2/)
 - [Module 3](html-css-javascript-for-web-developers/module-3/)
+- [Module 4](html-css-javascript-for-web-developers/module-4/)
