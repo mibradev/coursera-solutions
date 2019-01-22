@@ -8,3 +8,4 @@
 ## Single Page Web Applications with AngularJS
 
 - [Module 1](single-page-web-apps-with-angularjs/module-1/)
+- [Module 2](single-page-web-apps-with-angularjs/module-2/)
