@@ -30,7 +30,9 @@
     service.toBuy = [
       {name: "cookies", quantity: 10},
       {name: "broccolies", quantity: 3},
-      {name: "apples", quantity: 5}
+      {name: "apples", quantity: 5},
+      {name: "chipse", quantity: 4},
+      {name: "bananas", quantity: 6}
     ];
 
     service.alreadyBought = [];
