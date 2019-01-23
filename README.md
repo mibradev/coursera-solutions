@@ -9,3 +9,4 @@
 
 - [Module 1](single-page-web-apps-with-angularjs/module-1/)
 - [Module 2](single-page-web-apps-with-angularjs/module-2/)
+- [Module 3](single-page-web-apps-with-angularjs/module-3/)
