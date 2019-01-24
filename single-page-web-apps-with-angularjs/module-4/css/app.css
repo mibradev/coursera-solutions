@@ -1,0 +1,18 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.items-header {
+  border-radius: 0 20px;
+  margin-bottom: 20px;
+}
+
+.items-header h3 {
+  margin: 0;
+  padding: 20px;
+}
+
+.categories-list li:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
