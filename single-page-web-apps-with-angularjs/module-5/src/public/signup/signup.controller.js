@@ -11,9 +11,9 @@
 
     self.getMenuItem = function(form) {
       self.user.favoriteItem = null;
-      UserService.info = self.user;
 
       if (form.$valid) {
+        UserService.info = self.user;
         form.$setPristine();
 
         if (self.user.menuNumber) {
