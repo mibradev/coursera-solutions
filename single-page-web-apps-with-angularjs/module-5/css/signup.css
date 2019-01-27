@@ -1,0 +1,25 @@
+.signup {
+  width: 25%;
+}
+
+.signup h2 {
+  margin-bottom: 50px;
+}
+
+.signup .ng-submitted .ng-valid,
+.signup .ng-valid.ng-touched {
+  border-color: #3c763d;
+  border-width: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.signup .ng-submitted .ng-invalid,
+.signup .ng-invalid.ng-touched {
+  border-color: #a94442;
+  border-width: 3px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.signup .help-block {
+  color: #f6b319;
+}

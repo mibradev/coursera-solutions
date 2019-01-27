@@ -1,0 +1,23 @@
+.myinfo .no-user-info {
+  padding: 20% 0;
+}
+
+.myinfo h2,
+.myinfo h3 {
+  margin-bottom: 50px;
+}
+
+.myinfo hr {
+  margin: 50px 0;
+}
+
+.myinfo table > tbody > tr > th,
+.myinfo table > tbody > tr > td {
+  border-top: none;
+  width: 50%;
+}
+
+.myinfo table > tbody > tr > th {
+  color: #f6b319;
+  text-align: right;
+}

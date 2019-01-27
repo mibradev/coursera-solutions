@@ -1,0 +1,39 @@
+<div ng-controller="SignupController" class="signup container">
+  <h2 class="text-center">Sign up for Newsletter</h2>
+
+  <form name="form" novalidate>
+    <div class="form-group">
+      <input ng-model="signupCtrl.user.firstName" type="text" name="firstName" placeholder="First Name" required class="form-control">
+      <span ng-if="(form.$submitted || form.firstName.$touched) && form.firstName.$error.required" class="help-block">First Name is required.</span>
+    </div>
+
+    <div class="form-group">
+      <input ng-model="signupCtrl.user.lastName" type="text" name="lastName" placeholder="Last Name" required class="form-control">
+      <span ng-if="(form.$submitted || form.lastName.$touched) && form.lastName.$error.required" class="help-block">Last Name is required.</span>
+    </div>
+
+    <div class="form-group">
+      <input ng-model="signupCtrl.user.email" type="email" name="email" placeholder="Email Address" required class="form-control">
+      <span ng-if="(form.$submitted || form.email.$touched) && form.email.$error.required" class="help-block">Email is required.</span>
+    </div>
+
+    <div class="form-group">
+      <input ng-model="signupCtrl.user.phone" type="text" name="phone" placeholder="Phone Number (XXX-XXX-XXXX)" pattern="(\d{3})-(\d{3})-(\d{4})" required class="form-control">
+      <span ng-if="(form.$submitted || form.phone.$touched) && form.phone.$error.required" class="help-block">Phone Number is required.</span>
+      <span ng-if="(form.$submitted || form.phone.$touched) && !form.phone.$error.required && form.phone.$invalid" class="help-block">Phone Number is invalid.</span>
+    </div>
+
+    <div class="form-group">
+      <input ng-model="signupCtrl.user.menuNumber" type="text" name="menuNumber" placeholder="Menu Number" class="form-control" menu-number>
+      <span ng-if="form.menuNumber.$error.menuNumber" class="help-block">No such menu number exists.</span>
+    </div>
+
+    <div class="form-group">
+      <input ng-disabled="form.$invalid || form.$pending" ng-click="signupCtrl.getMenuItem(form)" type="submit" value="Sign up" class="btn btn-default">
+    </div>
+  </form>
+
+  <div ng-if="form.$submitted && form.$pristine" class="alert alert-success alert-dismissible" role="alert">
+    Your information has been saved.
+  </div>
+</div>
