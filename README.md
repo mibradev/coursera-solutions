@@ -11,3 +11,4 @@
 - [Module 2](single-page-web-apps-with-angularjs/module-2/)
 - [Module 3](single-page-web-apps-with-angularjs/module-3/)
 - [Module 4](single-page-web-apps-with-angularjs/module-4/)
+- [Module 5](single-page-web-apps-with-angularjs/module-5/)
